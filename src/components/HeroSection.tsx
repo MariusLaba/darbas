@@ -18,15 +18,12 @@ const HeroSection = ({
                     alt=""
                 />
             </div>
-            <div className="mb-14 lg:mb-0 lg:w-1/2 ">
+            <div className="mb-16 lg:mb-0 lg:w-1/2 ">
                 <h1 className="max-w-xl text-[2.9rem] leading-none text-white font-bold text-center lg:text-5xl lg:text-left lg:leading-tight mb-5">
                     Welcome to ConnectHub - Your Ultimate Social Connection
                 </h1>
                 <p className="max-w-xl text-center text-white lg:text-left lg:max-w-md">
-                    Are you tired of social media platforms that leave you feeling
-                    disconnected, overwhelmed, or uninspired? It's time to switch to
-                    ConnectHub, the social media app designed to bring you closer to the
-                    people and things that matter most in your life.
+
                 </p>
                 <div className="flex justify-center mt-14 lg:justify-start gap-1">
                     <button
