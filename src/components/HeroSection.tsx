@@ -5,13 +5,13 @@ type THeroSection = {
     setShowLoginModal: React.Dispatch<React.SetStateAction<boolean>>
 }
 
-const MainSection = ({
+const HeroSection = ({
                          setShowRegisterModal,
                          setShowLoginModal,
                      }: THeroSection) => {
     return (
         <div
-            className="container d-flex p100 jc-center  text-white md:px12 md:flex-row">
+            className="container d-flex p100 jc-center  text-white">
 
 
             <button
@@ -32,4 +32,4 @@ const MainSection = ({
     )
 }
 
-export default MainSection
+export default HeroSection

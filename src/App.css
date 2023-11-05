@@ -43,3 +43,27 @@ body {
 .colorBlack {
     background-color: black;
 }
+
+.w-800 {
+    width: 800px;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.colorWhite {
+    background-color: white;
+}
+
+.lightGray {
+    background-color: lightgray;
+}
+
+.textRed {
+    color: red;
+}
+
+.whiteText {
+    color: white;
+}
