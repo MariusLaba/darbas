@@ -3,5 +3,43 @@
 @tailwind utilities;
 
 body {
-    background-color: rgb(17 24 39)
+    background-color: rgb(128 128 128)
+}
+.regBtn {
+    background-color: white;
+}
+
+.p20 {
+    padding: 20px
+}
+
+.textBlack {
+    color: black;
+}
+
+.colorGrey {
+    color: lightgray;
+}
+
+.container {
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.j-center {
+    justify-items: center;
+}
+.jc-center {
+    justify-content: center;
+}
+
+.p100 {
+    padding: 100px;
+}
+
+.colorBlack {
+    background-color: black;
 }

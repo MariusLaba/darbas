@@ -1,4 +1,4 @@
-import HeroSection from '../components/HeroSection'
+import HeroSection from '../components/MainSection'
 import RegisterModal from '../components/RegisterModal'
 import {useState} from 'react'
 import LoginModal from '../components/LoginModal'

@@ -1,9 +1,7 @@
 import { AiFillHeart, AiOutlineComment, AiOutlineHeart } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 import { TPost } from '../models/typesPostStore'
-import axios from 'axios'
-import { toast } from 'react-toastify'
-import { IErrorBackend } from '../models/typesBackEndError'
+
 import { useUserStore } from '../store/userStore'
 
 
