@@ -39,10 +39,6 @@ const HomePage = () => {
         }
     }
 
-    useEffect(() => {
-        getPosts()
-        getInbox()
-    }, [])
 
     return (
         <>

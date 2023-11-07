@@ -104,7 +104,7 @@ const EditProfileModal = ({
                                     src="https://images.squarespace-cdn.com/content/v1/64b01b7f5312692724db8739/a2c54d31-22bd-492c-8c50-726a20448ff7/ChiAlpha_Icon_White.png"
                                     alt=""
                                 />
-                                <p className="font-bold">ConnectHub</p>
+
                             </div>
                             <h5 className="text-xl text-white mb-5 ml-1 text-center">
                                 Edit your profile:

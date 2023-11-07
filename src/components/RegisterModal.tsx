@@ -46,21 +46,17 @@ const RegisterModal = ({
         <>
             {showRegisterModal && (
                 <div className="fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex justify-center items-center">
-                    <div className="w-[450px] flex flex-col">
+                    <div className="w-800 d-flex flex-col">
                         <button
                             className="text-white text-xl place-self-end"
                             onClick={() => setShowRegisterModal(false)}
                         >
-                            <AiOutlineClose className="bg-gray-900" />
+                            <AiOutlineClose className="colorGrey" />
                         </button>
-                        <div className="bg-gray-800 rounded p-10 bg-opacity-90">
+                        <div className="colorWhite p100">
                             <div className="flex justify-center items-center mb-5 text-white">
                                 {' '}
-                                <img
-                                    className={`w-[35px] h-[35px]`}
-                                    src="https://images.squarespace-cdn.com/content/v1/64b01b7f5312692724db8739/a2c54d31-22bd-492c-8c50-726a20448ff7/ChiAlpha_Icon_White.png"
-                                    alt=""
-                                />
+
                                 <p className="font-bold">ConnectHub</p>
                             </div>
                             <h5 className="text-xl text-white mb-5 ml-1">
@@ -73,10 +69,10 @@ const RegisterModal = ({
                                 <input
                                     placeholder="Username"
                                     {...register('username')}
-                                    className="px-4 py-2 rounded bg-gray-900 focus:outline-0 text-white bg-opacity-80"
+                                    className="p20 lightGray"
                                 />
                                 {errors.username ? (
-                                    <p className="text-red-500 flex items-center gap-1 justify-center">
+                                    <p className="textRed d-flex j-center">
                                         <AiOutlineWarning />
                                         {errors.username.message}
                                     </p>
@@ -87,7 +83,7 @@ const RegisterModal = ({
                                 <input
                                     placeholder="Password"
                                     {...register('password')}
-                                    className="px-4 py-2 rounded bg-gray-900 focus:outline-0 text-white bg-opacity-80"
+                                    className="p20 lightGray"
                                 />
                                 {errors.password ? (
                                     <p className="text-red-500 flex items-center gap-1 justify-center">
@@ -101,7 +97,7 @@ const RegisterModal = ({
                                 <input
                                     placeholder="Confirm Password"
                                     {...register('confirmPassword')}
-                                    className="px-4 py-2 rounded bg-gray-900 focus:outline-0 text-white bg-opacity-80"
+                                    className="p20 lightGray"
                                 />
                                 {errors.confirmPassword ? (
                                     <p className="text-red-500 flex items-center gap-1 justify-center">
@@ -114,7 +110,7 @@ const RegisterModal = ({
 
                                 <button
                                     type="submit"
-                                    className="text-white p-2 bg-gray-900 rounded font-bold hover:bg-gray-800"
+                                    className="whiteText  colorBlack p20"
                                     disabled={isSubmitting}
                                 >
                                     REGISTER
