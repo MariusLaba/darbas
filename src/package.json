@@ -1,7 +1,0 @@
-{
-  "name": "src",
-  "version": "1.0.0",
-  "dependencies": {
-    "socket.io-client": "^4.7.2"
-  }
-}
